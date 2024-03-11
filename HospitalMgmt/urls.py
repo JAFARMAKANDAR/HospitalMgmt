@@ -20,6 +20,7 @@ from hospital.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', About, name='about'),
+    path('about', About, name='about'),
+    path('', Index, name='index'),
 
 ]
